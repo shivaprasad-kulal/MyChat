@@ -1,0 +1,73 @@
+.homepage{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login-form{
+    background-color: rgb(228, 235, 233);
+    padding: 5rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.input-container{
+    display:flex;
+    gap:10px;
+    flex-direction: column;
+    margin: 10px;
+}
+.title{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+input[type="text"],
+input[type="password"] {
+    height: 35px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding-left: 0.5rem;
+}
+
+
+
+
+input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    background: #0804ea;
+    border: 1px solid #01d28e;
+    border-radius: 12px;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+    background: #6756dc;
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.register{
+    padding-top: 2rem;
+ text-align: center;
+}
+a:link{
+     color: blue;
+ }
+ a:visited{
+    color: rgb(207, 20, 48);
+ }
+ .error{
+    color: red;
+    font-size: 12px;
+ }
